@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="NY Dashboard Suite">
+    <test name="Dashboard Ride Flow Test">
+        <classes>
+              <class name="baseClass.BaseClass"/>
+              <class name="bapFlows.BapLogin"/>
+			  <class name="bapFlows.RideSearch"/>
+              <class name="bppFlows.BppLogin"/>
+              <class name="bppFlows.EndRide"/>
+        </classes>
+	</test>
+	
+	<test name="Dashboard User cancellation">
+		<classes>
+              <class name="baseClass.BaseClass"/>
+              <class name="bapFlows.BapLogin"/>
+              <class name="bapFlows.UserRideCancellation"/>
+		</classes>
+	</test>
+</suite>
+
+<!-- this file is built in pom.xml-->
+<!--to run: mvn test-->
