@@ -1,12 +1,12 @@
-# NY_Dashboard_Automation
+# Fleat and mahila shakthi Automation
 
 This repository contains an automated driver suite built using Selenium WebDriver with Java. The automation covers the following core workflows:
 
 # Features
 
 
-**1. BAP Login Flow**
-  Automates the login process for Backend Aggregator Platform (BAP) users.
+**1. Fleat Login Flow**
+  Automates the login process for Backend Aggregator Platform (fleat) users.
 
     Includes:
 
@@ -17,32 +17,11 @@ This repository contains an automated driver suite built using Selenium WebDrive
       Validation of successful login.
 
 
-**2. BPP Login Flow**
-    Automates the login process for Backend Provider Platform (BPP) users.
+**2. FLeat sighn up flows**
+    Automates the sighn up process for Backend Provider Platform (Fleat) users.
 
     Steps include credential input, verification.
 
-**3. Ride Flow**
-    Simulates an end-to-end ride booking process, including:
-
-      Selecting pickup and drop-off locations.
-  
-      Validating ride availability.
-  
-      Confirming ride booking.
-
-      Start and end the ride.
-
-**4. User Ride Cancellation Flow**
-   Automates the ride cancellation process initiated by the user.
-
-   Includes:
-
-    Accessing user the active ride.
-  
-    Triggering cancellation.
-  
-    Verifying cancellation confirmation or messages.
 
 
 # Tech Stack
